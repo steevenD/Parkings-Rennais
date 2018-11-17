@@ -1,0 +1,52 @@
+body{
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.map {
+    margin-left: 2%;
+    height: 600px;
+    width: 45%;
+    border: 3px solid black;
+
+}
+
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.progress{
+    width: 200px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+#cards {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    border: 3px solid black;
+}
+
+.flex{
+    display: flex;
+}
+
+.title{
+    text-align: center;
+}
+
+.btn-primary{
+   margin: 1% 43%;
+}
+
+footer{
+    background-color: rgba(255,226,255,0.8);
+    justify-content: space-around;
+}
